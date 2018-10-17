@@ -1,0 +1,331 @@
+.center{
+	text-align:center;
+	display:block;
+	margin:auto;
+}
+.inline-block.center{
+
+	display:inline-block;
+	text-align:center;
+	margin:auto;
+
+}
+
+.bold{
+	font-weight:bold;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Left column */
+.column1 {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.column2 {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.column5050{
+	float:left;
+	width:50%;
+	padding-left:20px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/******************************************************************************/
+
+#navprincipal{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+	background:#939393;
+	
+}
+
+#navprincipal li{
+
+	float:left;
+
+}
+
+#navprincipal li a{
+
+	display: inline-block;
+	text-align:center;
+  padding: 14px 16px;
+	text-decoration: none;
+	color:white;
+}
+
+#navprincipal li a:hover{
+	background-color:#ffcc66;
+	color:green;
+}
+
+/******************************************************************************/
+
+#navpiepag{
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navpiepag li a:hover{
+    background-color:#ffcc66;
+}
+
+#navpiepag li{
+	
+    float: left;
+}
+
+#navpiepag li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+/******************************************************************************/
+#navdiscos{
+
+	background:#669999;
+	padding:10px;
+	
+}
+
+#navdiscos > li{
+
+	background:#e0ebeb;
+	padding:5px;
+	margin-bottom:3px;
+	list-style-type: none;
+	
+}
+
+
+#navdiscos > li:hover{
+
+	background:#634536;
+	color:black;
+
+}
+
+#navdiscos > li > a{
+
+	padding-right:400px;
+	text-decoration:none;
+	color:#634536;
+	
+}
+
+#navdiscos > li > a:hover{
+	
+	text-decoration: none;
+	color:#e0ebeb;
+
+}
+/******************************************************************************/
+#discarea{
+
+	background:#c2d6d6;
+	padding:10px;
+
+}
+
+.album{
+
+	background:#3d5c5c;
+	padding:10px;
+	padding-bottom:20px;
+	margin-bottom:30px;
+
+}
+.albumsongs > p, .albumsongs > h2{
+
+	color:#85adad;
+
+}
+
+.albumsongs > li{
+	
+	color:#c2d6d6;
+	padding-left:30px;
+	list-style-type:none;
+
+}
+/******************************************************************************/
+.highlight1{
+
+	padding:10px;
+	background:#ffeecc;
+
+}
+
+.highlight2{
+
+	background:#eeddbb
+
+}
+
+.textarea{
+	
+	color:#4d2600;
+	background:#ffcc99;
+	padding:10px;
+	margin:5px;
+	text-indent:50px;
+
+}
+
+.textlvl1{
+
+	margin-left:30px;
+	
+}
+
+.normalizedpic{
+	max-height:200px;
+	max-width:200px;
+	
+	width:50%;
+	height:50%;
+}
+
+.merch{
+	margin-top:50px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	background:#ffeecc;
+	padding:10px;
+}
+
+/******************************************************************************/
+table{
+	background:#66ccff;
+	
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-right:5px;
+	
+}
+
+td{
+	padding:20px;
+	width:auto;
+}
+
+tr{
+	border:none;
+	border-collapse:collapse;
+}
+
+
+tr:nth-child(even){
+	text-align:left;
+	background: #ffffcc;
+}
+
+tr:nth-child(odd){
+	background:#ffcc99;
+}
+
+tr:first-child{
+		background:#66ccff;
+		padding-left:10px;
+		text-align:left;
+		height:50px;
+}
+
+tr:hover{
+	background:#ff9933;
+}
+
+tr:first-child:hover{
+		background:#66ccff;
+}
+
+td:hover{
+	color:yellow;
+}
+/******************************************************************************/
+input{
+	background-color:white;
+	color:#3d5c5c;
+	padding:5px;
+	margin-bottom:10px;
+	margin-right:10px;
+	border:2px solid #3d5c5c;
+	border-radius: 4px;
+}
+
+input:focus{
+
+	border:3px solid #3d5c5c;
+
+}
+
+select{
+	padding: 5px;
+	border: 2px solid #3d5c5c;
+	border-radius:4px;
+	background-color:##ffeecc;
+
+}
+
+input[type=button], input[type=submit], input[type=reset]{
+
+	background-color:#3d5c5c;
+	padding: 6px;
+	margin:5px;
+	color:#ffeecc;
+	font-weight:bold;
+	text-decoration:none;
+	border:none;
+	cursor:pointer;
+
+}
+
+
+
+/******************************************************************************/
+
+div.line {
+	
+	margin-top:20px;
+	margin-bottom:20px;
+
+	background:red;
+	height:2px;
+}
+
+body{
+	
+		font-family: sans-serif;
+
+}		
+
+
+
+
