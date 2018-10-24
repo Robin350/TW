@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <header>
+  	<a name="inicio"></a>
+  	<img src="https://whitesnake.com/wp-content/uploads/2016/07/whitesnake-small2.png"></img>
+  	<h1>Whitesnake</h1>
+  </header>
+  <nav>
+  	<a name="nave"></a>
+  	<li><a href="grupo.html">Introduccion</a></li>
+  	<li><a href="biografia.html">Biografia</a></li>
+  	<li><a href="discografia.html">Discografia</a></li>
+  	<li><a href="tienda.html">Tienda</a></li>
+  </nav>
+  <body>
+  	<section>
+  	<h1>Formulario web basico</h1>
+    <hr>
+    <form action="#">
+        <fieldset>
+            <legend>Entradas de usuario</legend>
+                <label for="usuario">Nombre:</label>
+                <input id="usuario" type="text" name="usuario">
+
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" type="text" name="apellidos">            
+                
+								<label for="email">Direccion email:</label>
+                <input id="email" type="email" name="email">
+                
+                Sexo: <br>
+								<input type="radio" id="masculino" name="sexo" value="masculino">
+								<label for="masculino">Masculino</label><br>
+								<input type="radio" id="femenino" name="sexo" value="femenino">
+								<label for="femenino">Femenino</label><br>
+        </fieldset>
+        <fieldset>
+       		<label for="tarjeta">Tipo de tarjeta:</label>
+		  		<select name="tarjeta">
+				    <option value="VI">VISA</option>
+				    <option value="MA">MasterCard</option>
+				    <option value="AE">American Express</option>
+				    <option value="" selected="selected">Selecciona tipo...</option>
+		  		</select>
+		  		
+		  		<label for="numerotar">Numero:</label>
+          <input id="numerotar" type="text" name="numerotar">
+          <label for="mcad">Mes caducidad:</label>
+          <input id="mcad" type="month" name="mcad">
+          <label for="acad">Anio caducidad:</label>
+          <input id="acad" type="number" name="acad">
+          <label for="cvv">CVV:</label>
+          <input id="cvv" type="number" name="cvv">
+        </fieldset>
+        <fieldset>
+        Album(es) a comprar: <br>
+					<input type="checkbox" id="cagi" name="albumes" value="cagi">
+					<label for="cagi">Come and get it</label><br>
+					<input type="checkbox" id="sas" name="albumes" value="sas">
+					<label for="sas">Saints and Sinners</label><br>
+					<input type="checkbox" id="cttb" name="albumes" value="cttb">
+					<label for="cttb">Come Taste the band</label><br>
+					<input type="checkbox" id="gtbb" name="albumes" value="gtbb">
+					<label for="gtbb">Good to be bad</label><br>
+        </fieldset>
+        
+        <input type="submit" name="submit" value="Enviar informacion">
+    		<input type="reset" name="reset" value="Limpiar formulario">	
+    </form>
+  	</section>
+  
+  
+   <section>
+  		<h3>_______________________________________________________________________________</h3>
+  		<nav>
+  			<a href="#inicio">Inicio</a>
+  			<a href="#nave">Navegacion</a>
+  			<a href="copyright.html">Copyright</a>
+  	</section>
+  </body>
+ </html>
